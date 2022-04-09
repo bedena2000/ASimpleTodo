@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Simple To Do App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.0/tailwind.min.css" integrity="sha512-wOgO+8E/LgrYRSPtvpNg8fY7vjzlqdsVZ34wYdGtpj/OyVdiw5ustbFnMuCb75X9YdHHsV5vY3eQq3wCE4s5+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/app.js" defer></script>
+</head>
+<body>
+  
+  <header class="header">
+      <div class="container-main">
+        <h1 class="date-time"></h1>
+        <p class="completed"></p>
+      </div>
+      <div class="container-main-2">
+        <h2 class="section-title">Incomplete</h2>
+        <div class="incomplete-wrapper">
+          <!-- <div class="incomplete-item">
+                <label>
+                  <input type="checkbox" checked="checked" class="filled-in"/>
+                  <span>Yellow</span>
+                </label>
+               </div>
+          -->
+        </div>
+      </div>
+      <div class="container-main-2">
+        <h2 class="section-title">Complete</h2>
+        <div class="complete-wrapper">
+          <!-- <div class="incomplete-item">
+            <label>
+              <input type="checkbox" checked="checked" class="filled-in"/>
+              <span class="complete-text">Yellow</span>
+            </label>
+          </div> -->
+        </div>
+      </div>
+  </header>
+  
+  <div class="container-main-3">
+    <a class="btn-floating btn-large waves-effect waves-light purple add-todo"><i class="material-icons">add</i></a>
+    
+    <!-- <a href="#modal1" class="waves-effect waves-light btn modal-trigger">+</a>
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>modal content</h4>
+        <p>A bunch of text</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>  -->
+    
+
+    
+    
+  
+    
+  </div>
+
+  <div class="modal-background">
+      
+  </div>
+  
+  <div class="modal-bottom">
+      <div class="add-todo-wrapper">
+        <input type="text" class="add-todo-wrapper-text" placeholder="Enter todo text">
+        <a class="btn-floating btn-large waves-effect waves-light brown submit-todo"><i class="material-icons">add</i></a>
+      </div>
+  </div>
+  
+  <div class="theme-changer">
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/uuid@latest/dist/umd/uuidv4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
